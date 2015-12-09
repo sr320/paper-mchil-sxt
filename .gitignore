@@ -2,3 +2,7 @@
 data/trinity.untrimmed.kmer2.fa
 
 data/trinity.untrimmed.kmer2.fixed.fa
+
+data/Mytilus-SXT.trimmed.trinity.fa
+
+data/trinity.untrimmed.w_trimming.kmer2.fa
