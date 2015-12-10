@@ -6,3 +6,13 @@ data/trinity.untrimmed.kmer2.fixed.fa
 data/Mytilus-SXT.trimmed.trinity.fa
 
 data/trinity.untrimmed.w_trimming.kmer2.fa
+
+*.kallisto_idx
+
+nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.fa
+
+nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.noblast
+
+nbs/analyses/Mytilus-SXT.trimmed.trinityNOHIT.fa
+
+nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.tab
