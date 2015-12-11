@@ -16,3 +16,9 @@ nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.noblast
 nbs/analyses/Mytilus-SXT.trimmed.trinityNOHIT.fa
 
 nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.tab
+
+data/Mytilus-SXT.trimmed.trinity.v3.fa
+
+data/Mytilus-SXT.trimmed.trinity.faIDonly
+
+nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.TAB.NOTeukar
