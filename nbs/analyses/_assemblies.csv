@@ -1,0 +1,2 @@
+assembly,n_seqs,smallest,largest,n_bases,mean_len,n_under_200,n_over_1k,n_over_10k,n_with_orf,mean_orf_percent,n90,n70,n50,n30,n10,gc,gc_skew,at_skew,cpg_ratio,bases_n,proportion_n,linguistic_complexity,score,optimal_score,cutoff
+/Users/sr320/git-repos/paper-mchil-sxt/data/Mytilus-SXT.trimmed.trinity.v3.fa,184166,224,21486,134270562,729.07356,0,38651,7,42761,52.36376,303,603,1077,1745,3161,0.33357,0.01875,0.0111,1.41025,0,0.0,0.1295,NA,NA,NA

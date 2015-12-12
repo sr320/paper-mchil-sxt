@@ -24,3 +24,5 @@ data/Mytilus-SXT.trimmed.trinity.faIDonly
 nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.TAB.NOTeukar
 
 nbs/analyses/lcrna/transcriptome.fa
+
+data/Myt-sxt-contigs_CLC.fa

@@ -1,0 +1,2 @@
+assembly,n_seqs,smallest,largest,n_bases,mean_len,n_under_200,n_over_1k,n_over_10k,n_with_orf,mean_orf_percent,n90,n70,n50,n30,n10,gc,gc_skew,at_skew,cpg_ratio,bases_n,proportion_n,linguistic_complexity,score,optimal_score,cutoff
+/Users/sr320/git-repos/paper-mchil-sxt/data/Myt-sxt-contigs_CLC.fa,138883,54,12602,72930134,481.78972,38556,16777,9,22343,55.68005,311,558,1013,1839,5601,0.33684,0.0018,0.001,1.43512,4,0.0,0.09772,NA,NA,NA
