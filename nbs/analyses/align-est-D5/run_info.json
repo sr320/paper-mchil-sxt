@@ -1,0 +1,9 @@
+{
+	"n_targets": 184834,
+	"n_bootstraps": 0,
+	"n_processed": 65005727,
+	"kallisto_version": "0.42.4",
+	"index_version": 10,
+	"start_time": "Sun Dec 13 08:59:34 2015",
+	"call": "kallisto quant -i /Users/sr320/git-repos/paper-mchil-sxt/data/Mytilus-SXT.trimmed.trinity.fa.kallisto_idx -o /Users/sr320/Desktop/align-est-D5 /Volumes/Monarch/mchil-stx/fq/D5_1.fastq /Volumes/Monarch/mchil-stx/fq/D5_2.fastq"
+}
