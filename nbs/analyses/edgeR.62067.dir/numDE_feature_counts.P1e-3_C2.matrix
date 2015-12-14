@@ -1,0 +1,7 @@
+	align-est-C01	align-est-D1	align-est-D2	align-est-D3	align-est-D4	align-est-D5
+align-est-C01	0	89	139	243	85	67
+align-est-D1	89	0	12	162	24	37
+align-est-D2	139	12	0	325	113	34
+align-est-D3	243	162	325	0	1	202
+align-est-D4	85	24	113	1	0	26
+align-est-D5	67	37	34	202	26	0

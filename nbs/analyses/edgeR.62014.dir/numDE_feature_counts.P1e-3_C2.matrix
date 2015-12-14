@@ -1,0 +1,7 @@
+	align-est-C01	align-est-D1	align-est-D2	align-est-D3	align-est-D4	align-est-D5
+align-est-C01	0	795	2173	3310	1460	1115
+align-est-D1	795	0	1216	1822	564	715
+align-est-D2	2173	1216	0	5299	1657	1467
+align-est-D3	3310	1822	5299	0	70	2397
+align-est-D4	1460	564	1657	70	0	1054
+align-est-D5	1115	715	1467	2397	1054	0

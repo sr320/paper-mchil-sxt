@@ -1,0 +1,19 @@
+library(edgeR)
+
+data = read.table("/Users/sr320/git-repos/paper-mchil-sxt/nbs/analyses/matrix1002-trans_counts.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(4,5)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(rnaseqMatrix)>=2,]
+conditions = factor(c(rep("align-est-D3", 1), rep("align-est-D4", 1)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+et = exactTest(exp_study, pair=c("align-est-D3", "align-est-D4"), dispersion=0.3)
+tTags = topTags(et,n=NULL)
+write.table(tTags, file='matrix1002-trans_counts.counts.matrix.align-est-D3_vs_align-est-D4.edgeR.DE_results', sep='	', quote=F, row.names=T)
+source("/Volumes/air_clone/Applications/trinityrnaseq-2.1.1/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("matrix1002-trans_counts.counts.matrix.align-est-D3_vs_align-est-D4.edgeR.DE_results.MA_n_Volcano.pdf")
+result_table = tTags$table
+plot_MA_and_Volcano(result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()
