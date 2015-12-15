@@ -26,3 +26,7 @@ nbs/analyses/Mytilus-SXT.trimmed.trinityIDonly.TAB.NOTeukar
 nbs/analyses/lcrna/transcriptome.fa
 
 data/Myt-sxt-contigs_CLC.fa
+
+nbs/analyses/transrate-CLC-Cgigas-pep/Myt-sxt-contigs_CLC/Crassostrea_gigas.GCA_000297895.1.29.pep.all.fa_chunk_0.fasta.blast
+
+nbs/analyses/transrate-CLC-Cgigas-pep/Myt-sxt-contigs_CLC/Crassostrea_gigas.GCA_000297895.1.29.pep.all.fa_chunk_1.fasta.blast
